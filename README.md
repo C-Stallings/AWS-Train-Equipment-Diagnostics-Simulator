@@ -1,4 +1,4 @@
-# 🚆 Train Equipment Diagnostics Simulator (AWS Project)
+# Train Equipment Diagnostics Simulator (AWS Project)
 
 **Project Goal:** Simulate uploading sensor logs from train equipment to AWS. Automatically detect issues (e.g., overheating, voltage drops) and generate basic reports.
 
@@ -10,6 +10,15 @@
 - Automatically trigger an **AWS Lambda** function  
 - Parse the file and check for system issues  
 - Print results to **CloudWatch Logs**
+
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/927bbfe2-8009-4f93-95d5-088f61bb74b1" 
+    height="50%" 
+    width="50%" 
+    alt="AWS_Train_Diagram_Screenshot"
+  />
+</p>
 
 ---
 
